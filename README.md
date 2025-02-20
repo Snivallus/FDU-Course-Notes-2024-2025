@@ -9,5 +9,5 @@
 - 高等线性代数 (邵美悦)
 - 数值算法与案例分析Ⅰ (邵美悦)
 
-知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)
+知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)\\
 邮箱地址: 21307140051@m.fudan.edu.cn
