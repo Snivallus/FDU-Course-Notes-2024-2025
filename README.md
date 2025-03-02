@@ -11,3 +11,4 @@
 
 知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)  
 邮箱地址: 21307140051@m.fudan.edu.cn
+Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心), 这一切都是受他的笔记启发而整理的. 
