@@ -12,7 +12,8 @@
 知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)  
 邮箱地址: 21307140051@m.fudan.edu.cn  
 
-Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心), 这一切都是受他的笔记启发而整理的.
+Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \0/)，  
+这一切都是受他的笔记启发而整理的 (参见 [ForeverHaibara/Fudan-Courses](https://github.com/ForeverHaibara/Fudan-Courses)).
 
 PS: 目前仅上传了笔记编译后的 PDF，Markdown 源码将在后续开源.  
 此外，高等线性代数题解中仍存在部分错误，正在逐步修正中.   
