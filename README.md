@@ -16,5 +16,6 @@ Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \0/)，
 这一切都是受他的笔记启发而整理的 (参见 [ForeverHaibara/Fudan-Courses](https://github.com/ForeverHaibara/Fudan-Courses)).
 
 PS: 目前仅上传了笔记编译后的 PDF，Markdown 源码将在后续开源.  
+水印用于防止笔记被拿去售卖，如需无水印版本，可通过邮件联系我!  
 此外，高等线性代数题解中仍存在部分错误，正在逐步修正中.   
 欢迎通过创建 issue 或邮件联系我指出问题!
