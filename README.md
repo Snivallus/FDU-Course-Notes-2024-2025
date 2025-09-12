@@ -27,7 +27,7 @@ Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \o/)，
   GitHub 是代码托管平台，PDF 在线渲染功能不行也情有可原.  
   最直接的做法是点击 `Code` 按钮，然后点击 `Download ZIP` (如图所示)，便可下载整个仓库的压缩包.  
   更好的做法是安装 GitHub Desktop，并点击 `Open with GitHub Desktop`，  
-  将本仓库克隆到本地，方便 `Fetch Origin` 来同步更新.
+  将本仓库克隆到本地，方便 `Pull Origin` 来同步更新.
   
   <img src="./figures/fig-1.png" style="zoom:35%;" />
   
