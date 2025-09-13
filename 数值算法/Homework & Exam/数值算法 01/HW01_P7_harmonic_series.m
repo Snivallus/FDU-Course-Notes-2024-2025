@@ -42,5 +42,5 @@ function min_n = find_min_n_converged(n_init, step, p)
         end
     end
     
-    min_n = low - 1;  % low == high, 再减去 1 就是最小的 n
+    min_n = low;  % low == high
 end
