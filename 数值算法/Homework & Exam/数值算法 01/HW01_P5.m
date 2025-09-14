@@ -1,9 +1,10 @@
-% Set seed
-rng(51);
+clear; clc; close all;
 
-% 定义不同 n 值的范围 (100到2000，每步100)
-n_values = 100:100:2000;
+% 定义不同 n 值的范围
+rng(51);
+n_values = round(logspace(2, 4, 20));
 execution_times = zeros(size(n_values));
+residual_errors = zeros(size(n_values));  % 存储误差
 
 % 遍历每个 n 值
 for i = 1:length(n_values)
@@ -17,32 +18,51 @@ for i = 1:length(n_values)
     tic;  % 开始计时
 
     % 使用 Gauss 消去法结合前代法和回代法求解线性方程组 Ax = b 
-    SolveLinearSystem(A, b)
+    x = Solve_Linear_System(A, b);
     
     execution_times(i) = toc;  % 停止计时并记录时间
     
-    % 输出当前维度和执行时间
-    fprintf('Matrix size: %d x %d, Execution time: %.4f seconds\n', n, n, execution_times(i));
+    % 计算残差误差 ||Ax - b||_inf
+    residual_errors(i) = norm(A*x - b, inf);
+    
+    % 输出当前维度、执行时间和误差
+    fprintf('Matrix size: %d x %d, Time: %.4f s, Residual error: %.2e\n', ...
+        n, n, execution_times(i), residual_errors(i));
 end
 
-% 绘制执行时间的 log-log 图
+% 绘制执行时间
 figure;
 loglog(n_values, execution_times, '-o', 'LineWidth', 2, 'MarkerSize', 8);
 hold on;
 
-% 绘制 n^3 比较线（归一化以匹配执行时间的尺度）
-normalized_n_cubed = (n_values.^3) * (execution_times(end) / n_values(end)^3);
-loglog(n_values, normalized_n_cubed, '--r', 'LineWidth', 2);
+% 线性拟合
+coeffs = polyfit(log(n_values), log(execution_times), 1);
+p = coeffs(1);
+a = coeffs(2);
+fitted_line = exp(a) * n_values.^p;
+loglog(n_values, fitted_line, '--r', 'LineWidth', 2);
 
 % 添加标签和标题
 xlabel('Matrix Size (n)', 'FontSize', 14);
 ylabel('Execution Time (seconds)', 'FontSize', 14);
-title('Execution Time of GaussianElimination and O(n^3) Comparison on Log-Log Scale', 'FontSize', 16);
-legend('Gaussian Elimination Execution Time', 'O(n^3) Reference Line');
+title(sprintf('Execution Time with Fitted Complexity (slope = %.2f)', p), ...
+      'FontSize', 16);
+
+legend('Execution Time', sprintf('Fitted O(n^{%.2f})', p), ...
+       'Location', 'northwest');
+
 grid on;
 hold off;
 
-function [L, U] = GaussianElimination(A)
+% 绘制误差的 log-log 图
+figure;
+loglog(n_values, residual_errors, '-s', 'LineWidth', 2, 'MarkerSize', 8);
+xlabel('Matrix Size (n)', 'FontSize', 14);
+ylabel('Residual Error ||Ax - b||_\infty', 'FontSize', 14);
+title('Residual Error of Gaussian Elimination (Log-Log Scale)', 'FontSize', 16);
+grid on;
+
+function [L, U] = Gaussian_Elimination(A)
     % Input:
     % A - An n x n matrix
     %
@@ -72,7 +92,7 @@ function [L, U] = GaussianElimination(A)
     return;
 end
 
-function y = ForwardSweep(L, b)
+function y = Forward_Sweep(L, b)
     % 前代法求解 Ly = b
     n = length(b);
     for i = 1:n-1
@@ -83,7 +103,7 @@ function y = ForwardSweep(L, b)
     y = b;  % 返回结果
 end
 
-function x = BackwardSweep(U, y)
+function x = Backward_Sweep(U, y)
     % 回代法求解 Ux = y
     n = length(y);
     for i = n:-1:2
@@ -94,14 +114,14 @@ function x = BackwardSweep(U, y)
     x = y;  % 返回结果
 end
 
-% 示例: 求解线性方程组 Ax = b
-function x = SolveLinearSystem(A, b)
-    % 使用 Gaussian 消去法计算 A = LU
-    [L, U] = GaussianElimination(A);  % 假设已实现 GaussianElimination
+% 求解线性方程组 Ax = b
+function x = Solve_Linear_System(A, b)
+    % 使用 Gauss 消去法计算 A = LU
+    [L, U] = Gaussian_Elimination(A);
     
-    % 使用前代法求解 Ly = Pb (P为单位矩阵，忽略置换)
-    y = ForwardSweep(L, b);
+    % 使用前代法求解 Ly = b
+    y = Forward_Sweep(L, b);
     
     % 使用回代法求解 Ux = y
-    x = BackwardSweep(U, y);
+    x = Backward_Sweep(U, y);
 end
