@@ -1,21 +1,26 @@
+clear; clc; close all;
+
 % Generate a random 4x4 matrix
-A = randn(4, 4);
-b = randn(4, 1);
+rng(51);
+A = randn(4, 4) + 1i * randn(4, 4);
+b = randn(4, 1) + 1i * randn(4, 1);
 
 % Perform Gaussian Elimination
 [L, U] = GaussianElimination(A);
 
 % Display the results
-disp('Matrix A:');
-disp(A);
 disp('Lower triangular matrix L:');
 disp(L);
 disp('Upper triangular matrix U:');
 disp(U);
 
 % Verify that A = L*U
+disp('Matrix A:');
+disp(A);
 disp('L*U:');
 disp(L*U);
+disp('Frobenius norm of residual:');
+disp(norm(A - L*U, "fro"));
 
 % 使用前代法求解 Ly = b
 y = ForwardSweep(L, b);
