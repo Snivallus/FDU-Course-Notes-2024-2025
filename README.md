@@ -36,6 +36,6 @@ Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \o/)，
   我订阅的是年付套餐 $\text{O}$，价格是 $112$ 元/年，每月 $\text{50 GB}$ 流量，基本够用.    
   但如果你只想要一个连接 GitHub 的免费 VPN，可以使用 [dev-sidecar](https://github.com/docmirror/dev-sidecar/releases).  
   如果问题还是无法得到解决，可以邮件联系我!  
-  (大四生活比较闲，不必担心打扰我!)
+  (大四生活比较闲，不必担心打扰我)
 
   <img src="./figures/fig-2.png" style="zoom:45%;" />
