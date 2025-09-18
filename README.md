@@ -26,16 +26,17 @@ Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \o/)，
 - 此外，关于 "PDF 在线渲染失败" (invalid PDF) 的问题，建议下载到本地再查看.  
   GitHub 是代码托管平台，PDF 在线渲染功能不行也情有可原.  
   最直接的做法是点击 `Code` 按钮，然后点击 `Download ZIP` (如图所示)，便可下载整个仓库的压缩包.  
-  更好的做法是安装 GitHub Desktop，并点击 `Open with GitHub Desktop`，  
-  将本仓库克隆到本地，方便 `Pull Origin` 来同步更新.
+  更推荐的做法是安装 GitHub Desktop，并点击 `Open with GitHub Desktop`，  
+  将本仓库克隆到本地，方便 `Pull Origin` 来同步更新，不用每次都下载数百兆的压缩包.
   
   <img src="./figures/fig-1.png" style="zoom:35%;" />
   
 - 最后，关于 "拼尽全力无法下载" 的问题，大概率是没有使用 VPN 或 VPN 不够稳定.  
   可以使用 [v2free](https://v2free.net/) 的 V2rayN (如图所示)，我用了三年，比较稳定.  
-  我订阅的是年付套餐 $\text{O}$，价格是 $112$ 元/年，每月 $\text{50 GB}$ 流量，基本够用.    
-  但如果你只想要一个连接 GitHub 的免费 VPN，可以使用 [dev-sidecar](https://github.com/docmirror/dev-sidecar/releases).  
+  我订阅的是年付套餐 $\text{O}$，价格是 $112$ 元/年，每月 $\text{50 GB}$ 流量，基本够用.  
+  当然，你也可以货比三家，找找有没有更便宜更好用的 VPN.  
+  特别地，如果你只想要一个连接 GitHub 的免费 VPN，可以使用 [dev-sidecar](https://github.com/docmirror/dev-sidecar/releases).  
   如果问题还是无法得到解决，可以邮件联系我!  
   (大四生活比较闲，不必担心打扰我)
-
+  
   <img src="./figures/fig-2.png" style="zoom:45%;" />
