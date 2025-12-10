@@ -42,7 +42,7 @@ Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333
 这一切都是受他的笔记启发而整理的 (参见 [ForeverHaibara/Fudan-Courses](https://github.com/ForeverHaibara/Fudan-Courses)).   
 
 令人振奋的是，24 级的路人甲同学也开始整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).  
-👊Make SDS Great Again!👊  
+Make SDS Great Again!👊  
 你要问 SDS 是什么，很多人会说是 School of Data Science 的缩写，但路人甲同学指出，那其实是 "邵代数" 的缩写.  
 此外，DS 表面上是 Data Science，实则其真身是 Dr. Shao✋😭🤚
 
