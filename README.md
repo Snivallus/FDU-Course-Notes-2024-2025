@@ -15,6 +15,7 @@
 - 统计学基础Ⅱ:回归分析 (王勤文)
 - 随机过程导论 (王勤文)
 - 统计机器学习 (朱雪宁)
+- 统计计算 (张楠) **(Contributed by Layleace)**
 - 多模态数据同化 (陈钊) **(待更新…)**
 
 计算机类专业课:
@@ -36,15 +37,19 @@
 
 知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)  
 Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333.1387.0.0)  
-邮箱地址: 21307140051@m.fudan.edu.cn  
+邮箱地址: 21307140051@m.fudan.edu.cn
 
-20 级的 Zehao Zhang 学长 (@ForeverHaibara) star 我了 (开心 \o/)，  
-这一切都是受他的笔记启发而整理的 (参见 [ForeverHaibara/Fudan-Courses](https://github.com/ForeverHaibara/Fudan-Courses)).   
+20 级的 **Zehao Zhang** 学长 (@ForeverHaibara) star 我了 (开心 \o/)，  
+这一切都是受他的笔记启发而整理的 (参见 [ForeverHaibara/Fudan-Courses](https://github.com/ForeverHaibara/Fudan-Courses)).
 
-令人振奋的是，24 级的路人甲同学也开始整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).  
-Make SDS Great Again!👊  
-你要问 SDS 是什么，很多人会说是 School of Data Science 的缩写，但路人甲同学指出，那其实是 "邵代数" 的缩写🤧  
-此外，DS 表面上是 Data Science，实则其真身是 Dr. Shao✋😭🤚
+令人振奋的是，越来越多同学参与了进来.  
+22 级的 **Layleace** 同学整理了《统计计算》的笔记，并已贡献至本仓库 (salute o/ o/ o/).  
+24 级的 **"路人甲"** 同学也开始整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).
+
+让我们一起——**Make SDS Great Again!**👊  
+你要问 SDS 是什么，很多人会说是 *School of Data Science* 的缩写，  
+但 "路人甲" 同学指出，那其实是 "邵代数" 的缩写🤧  
+此外，DS 表面上是 *Data Science*，实则其真身是 Dr. Shao✋😭🤚
 
 <img src="./DS meme/孩子们在想我的事.jpg" style="zoom:100%;" />
 
