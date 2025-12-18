@@ -46,7 +46,7 @@ Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333
 22 级的 **Layleace** 同学整理了《统计计算》的笔记，并已贡献至本仓库 (salute o/ o/ o/).  
 24 级的 **"路人甲"** 同学也开始整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).
 
-让我们一起——**Make SDS Great Again!**👊  
+让我们一起——Make SDS Great Again!👊  
 你要问 SDS 是什么，很多人会说是 *School of Data Science* 的缩写，  
 但 "路人甲" 同学指出，那其实是 "邵代数" 的缩写🤧  
 此外，DS 表面上是 *Data Science*，实则其真身是 Dr. Shao✋😭🤚
