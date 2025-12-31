@@ -15,7 +15,7 @@
 - 统计学基础Ⅱ:回归分析 (王勤文)
 - 随机过程导论 (王勤文)
 - 统计机器学习 (朱雪宁)
-- 统计计算 (张楠) **(Contributed by Layleace)**
+- 统计计算 (张楠) **(Contributed by Layleace & Astronomer)**
 - 多模态数据同化 (陈钊) **(待更新…)**
 
 计算机类专业课:
@@ -26,14 +26,14 @@
 - 操作系统 (周喆 & 张凯)
 - 数据库引论 (周水庚)
 - 神经网络与深度学习 (付彦伟)
-- 复杂系统理论与仿真 (朱群喜 & 戴维) **(待更新…)**
+- 复杂系统理论与仿真 (朱群喜 & 戴维)
 - 脑科学与类脑系统 (于玉国 & 肖晓)
 - 图像处理与可视化 (庄吓海)
 
 非专业课:
 
 - 宋词导读 (赵惠俊)
-- 英语论说文写作 (Patrick Thame) **(待更新…)**
+- 英语论说文写作 (Patrick Thame)
 
 知乎主页: [Snivellus Snape](https://www.zhihu.com/people/ycy-hbp)  
 Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333.1387.0.0)  
@@ -44,7 +44,8 @@ Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333
 
 令人振奋的是，越来越多同学参与了进来.  
 22 级的 **Layleace** 同学整理了《统计计算》的笔记，并已贡献至本仓库 (salute o/ o/ o/).  
-24 级的 **"路人甲"** 同学也开始整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).
+23 级的 **Astronomer** 同学整理了《统计计算》2025 秋的期末考题.  
+24 级的 **路人甲** 同学也开始系统地整理课程笔记了 (参见 [Su-Zi-Zhan/FDU-SDS-Lecture-Notes](https://github.com/Su-Zi-Zhan/FDU-SDS-Lecture-Notes)).
 
 让我们一起——Make SDS Great Again!👊  
 你要问 SDS 是什么，很多人会说是 *School of Data Science* 的缩写，  
