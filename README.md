@@ -16,7 +16,7 @@
 - 随机过程导论 (王勤文)
 - 统计机器学习 (朱雪宁)
 - 统计计算 (张楠) **(Contributed by Layleace & Astronomer)**
-- 多模态数据同化 (陈钊) **(待更新…)**
+- 多模态数据同化 (陈钊)
 
 计算机类专业课:
 
@@ -94,5 +94,7 @@ Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333
   <img src="./figures/Typora.png" style="zoom:40%;" />
   
   注: 马志远是我的朋友 (实际上他是我的儿子，不过他不承认)，我上网的时候经常冒用他的名字，and vice versa.
+  
+  <img src="./figures/逆子脾气这一块.png" style="zoom:40%;" />
 
 Mischief managed!
