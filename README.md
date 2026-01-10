@@ -95,6 +95,8 @@ Bilibili 主页: [YCY_HBP](https://space.bilibili.com/1022387332?spm_id_from=333
   
   注: 马志远是我的朋友 (实际上他是我的儿子，不过他不承认)，我上网的时候经常冒用他的名字，and vice versa.
   
-  <img src="./figures/逆子脾气这一块.png" style="zoom:40%;" />
+  <img src="./figures/父慈子孝这一块.png" style="zoom:40%;" />
+
+  父慈子孝这一块😋
 
 Mischief managed!
